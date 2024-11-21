@@ -69,9 +69,17 @@
       background-color: white;
       left: 50%;
       bottom: 50%;
-      width: 2px;
+      width: 4px;
       height: 10vmin;
       transform-origin: 50% 50%;
+    }
+
+    .minute {
+      width: 2px;
+    }
+
+    .second {
+      background-color: red;
     }
 
     body {
@@ -81,7 +89,7 @@
 </head>
 <body>
   <div class="hand rotate-hour hour">
-    <div class="hand rotate-minute"></div>
-    <div class="hand rotate-second"></div>
+    <div class="hand rotate-minute minute"></div>
+    <div class="hand rotate-second second"></div>
   </div>
 </body>
